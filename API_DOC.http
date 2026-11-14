@@ -1,0 +1,121 @@
+#api call for addition
+###
+POST  http://127.0.0.1:8000/add/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":200
+}
+
+
+#api call for subtraction
+###
+POST  http://127.0.0.1:8000/sub/
+Content-Type: application/json
+
+{
+    "num1":200,
+    "num2":100
+}
+
+
+#api call for multiplication
+###
+POST  http://127.0.0.1:8000/mul/
+Content-Type: application/json
+
+{
+    "num1":2,
+    "num2":10
+}
+
+
+#api call for square
+###
+POST  http://127.0.0.1:8000/square/
+Content-Type: application/json
+
+{
+    "side":4
+}
+
+
+#api call for rectangle
+###
+POST  http://127.0.0.1:8000/rectangle/
+Content-Type: application/json
+
+{
+    "length":10,
+    "width":5
+}
+
+
+#api call for triangle
+###
+POST  http://127.0.0.1:8000/triangle/
+Content-Type: application/json
+
+{
+    "base":10,
+    "height":5
+}
+
+
+#api call for circle
+###
+POST  http://127.0.0.1:8000/circle/
+Content-Type: application/json
+
+{
+    "radius":10
+}
+
+
+#api call for parallelogram
+###
+POST  http://127.0.0.1:8000/parallelogram/
+Content-Type: application/json
+
+{
+    "base":10,
+    "vertical_height":10
+}
+
+
+#api call for trapezium
+###
+POST  http://127.0.0.1:8000/trapezium/
+Content-Type: application/json
+
+{
+    "length_1":2,
+    "length_2":5,
+    "height":10
+}
+
+
+#api call for rhombus
+###
+POST  http://127.0.0.1:8000/rhombus/
+Content-Type: application/json
+
+{
+    
+    "base":5,
+    "height":10
+}
+
+
+
+#api call for ellipse
+###
+POST  http://127.0.0.1:8000/ellipse/
+Content-Type: application/json
+
+{
+    
+    "semi_major":5,
+    "semi_minor":10
+}
